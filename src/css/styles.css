@@ -1,9 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
 #logo{
     width: 10%;
     
 }
 
 #section_video{
-    height: 100vh;
+    position: relative;
+    height: calc(100vh - 70px);
     background-color:  red;
+    top: 70px;
 }
