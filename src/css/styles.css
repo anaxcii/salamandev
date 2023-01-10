@@ -5,8 +5,7 @@ body{
 }
 
 #logo{
-    width: 10%: url("./src/videos/social.mp4");
-    
+    width: 10%;    
 }
 
 #section_video{
@@ -14,4 +13,5 @@ body{
     height: calc(100vh - 70px);
     background-color:  red;
     top: 70px;
+    background: url("/src/videos/social.mp4");
 }
