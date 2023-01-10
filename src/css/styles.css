@@ -4,6 +4,6 @@
 }
 
 #section_video{
-    height: calc(100vh + 50px);
+    min-height: calc(100vh - 50px);
     background-color:  red;
 }
