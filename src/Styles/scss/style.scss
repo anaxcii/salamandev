@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100vh - 70px);
+    opacity: 0.8;
+  }
+
+  #texte-video{
+    position: relative;
+    height: calc(70vh - 70px);
+  }
+
+#logo{
+    width: 10%;    
+}
+
+#carrousel{
+    // position: absolute;
+    // width: 100vw;
+    // // height: 10vh;
+}
+
+.align-centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section_video{
+    position: relative;
+    height: calc(100vh - 70px);
+}
+
+#separation{
+    height: 800px;
+
+}
+
+p{
+    font-size: 40px;
+}
