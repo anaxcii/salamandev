@@ -1,22 +1,39 @@
+@import "../../../src/Styles/scss/variables";
+@import "../../../node_modules/bulma/bulma.sass";
+
+
 body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
 
-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: calc(100vh - 70px);
-    opacity: 0.8;
+.navbar {
+    background-color: hsl(0 100% 100% / 0);
   }
 
-  #texte-video{
+#section_video{
     position: relative;
-    height: calc(70vh - 70px);
-  }
+    height: 100vh;
+}
+
+video {
+    position: relative;
+    margin: auto;
+    top: 0;
+    left: 0;
+    width: 70%;
+    // height: calc(100vh);
+    opacity: 0.8;
+}
+
+#video{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 
 #logo{
     width: 10%;    
@@ -29,14 +46,17 @@ video {
 }
 
 
-#section_video{
+#slider{
     position: relative;
-    height: calc(100vh - 70px);
 }
 
-#separation{
-    height: 800px;
+#texte-video{
+    position: absolute;
+    height: calc(70vh - 70px);
+  }
 
+#separation{
+    height: 400px;
 }
 
 p{
