@@ -10,17 +10,17 @@ body{
 
 .navbar {
     background-color: hsl(0 100% 100% / 0);
-  }
+}
 
 #section_video{
     // position: absolute;
-    height: calc(100vh - 70px);
+    height: 100vh;
 }
 
 #video{
     position: absolute;
     width: 100vw;
-    max-height: 100vh;
+    // max-height: 100%;
 }
 
 video {
@@ -45,6 +45,7 @@ footer{
 }
 
 #formation{
+    position: relative;
     width: 100%;
     height: 500px;
     background: url(/src/img/bannieres/notre_formation.jpg);
@@ -66,14 +67,17 @@ footer{
 
 
 #slider{
+    top: 65%;
     position: relative;
+    background-color: hsl(0 100% 100% / 0);
 }
 
 #texte-video{
     position: relative;
-    z-index: 0;
-    // top: 0;
-    // left: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 #separation{
