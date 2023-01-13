@@ -9,8 +9,34 @@ body{
     scroll-behavior: smooth;
 }
 
-.navbar {
-    background-color: hsl(0 100% 100% / 0);
+.navbar{
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  width: 100%;
+  background-color: rgba(0,0,0,0) ;
+  position: fixed;
+}
+.navbar a{
+  color: #ccdbde;
+  font-weight: bold;
+}
+
+.navbar .logo{
+  padding-left: 50px;
+  padding-top: 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.navbar .nav-links ul{
+  display: flex;
+}
+
+.navbar .nav-links ul li{
+  margin: 0 25px;
 }
 
 #section_video{

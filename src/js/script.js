@@ -42,3 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+  $(document).ready(function(){
+       
+    $(window).scroll(function(){
+
+      if($(window).scrollTop()>50){
+        $('nav').addClass('black');
+      }else{
+        $('nav').removeClass('black');
+      }
+
+    });
+
+});
