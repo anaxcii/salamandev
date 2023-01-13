@@ -1,5 +1,24 @@
-$couleur_principale: #9b59b6;
+$couleur_principale: #f4e70c;
+$couleur_secondaire: #303036;
+$couleur_tertiaire: #f5f6fa;
+
+$police_titre: Merienda;
+$police_texte: Bebas Neue;
+
 
 $primary: $couleur_principale;
+$dark: $couleur_secondaire;
+
 $modal-content-width: 1000px;
-// $modal-background-background-color: $couleur_principale;
+
+$modal-card-body-padding: 0px !default;
+$modal-card-head-padding: 0px !default;
+$border: #000;
+$modal-card-head-border-bottom: 1px solid $border !default;
+$modal-card-head-background-color: rgba(0, 0, 0, 0) !default;
+
+
+
+.slider-item {
+    width: 200px !important;
+}

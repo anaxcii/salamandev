@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="./node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="./src/Styles/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"><section></section>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
     <title>DEVFLIX</title>
 </head>
 
 <body class="has-text-light">
+
     <header>
+        <!-- NAVBAR -->
         <nav class="navbar">
             <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
             <div class="nav-links">
@@ -27,150 +29,177 @@
     </header>
 
     <main>
-        <section id="section_video" class="">
+        <!-- SECTION VIDEO -->
+        <section id="section_video" class="has-background-dark">
             <div id="video">
                 <video playsinline autoplay muted loop poster="">
                     <source src="./src/videos/social.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <div id="texte-video">
-                    <h2> SALAMANDEV VOUS SOUHAITE LA BIENVENUE</h2>
+                    <!-- <h2> SALAMANDEV VOUS SOUHAITE LA BIENVENUE</h2> -->
                 </div>
             </div>
-         
-            <div id="slider">
-                <div class="space">
+             <!-- CARROUSEL -->
+            <div id="slider" class="">
+                <div class="">
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Swan.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Swan.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
-                <div class="space">
+                <div class="">
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
-                        <img src="./src/img/films/Thomas.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Thomas.png" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Karim.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Karim.png" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Adam.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Adam.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Cyrine.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Cyrine.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Stephane.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Stephane.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Adrien.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Adrien.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Amazir.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Amazir.png" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/arnaud.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/arnaud.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Bertrand.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Bertrand.png" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Kevin.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Kevin.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/nahima.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/nahima.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/sebastien.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/sebastien.jpg" style="width:80%" alt="" />
                     </figure>
                 </div>
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
-                        <img src="./src/img/films/Domi.jpg" style="width:80%" alt=""/>  
+                        <img src="./src/img/films/Domi.png" style="width:80%" alt="" />
                     </figure>
                 </div>
             </div>
-
+             <!-- LES MODALES DE CHACUN -->
             <div class="modal" id="modal-swan">
                 <div class="modal-background"></div>
                 <div class="modal-card">
-                  <!-- <header class="modal-card-head">
-                    <h2 class="modal-card-title text is-size-1">SWAN</h2>
-                    <figure class="image is-128x128 ">
-                        <img src="./src/img/films/Swan.jpg" class="image is-rounded"/>
-                    </figure>
-                    <button class="delete" aria-label="close"></button>
-                  </header> -->
-                  <section class="modal-card-body">
-                    <!-- Content ... -->
-                    <!-- <img src="./src/img/films/Swan.jpg"> -->
-                    <!-- <video playsinline autoplay muted loop poster="./src/img/films/Swan.jpg">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title"></p>
+                        <button class="delete" aria-label="close"></button>
+                    </header>
+
+                    <section class="modal-card-body">
+
+                        <!-- Content ... -->
+                        <!-- <img src="./src/img/films/Swan.jpg"> -->
+                        <!-- <video playsinline autoplay muted loop poster="./src/img/films/Swan.jpg">
                         <source src="./src/videos/social.mp4" type="video/mp4">
                     </video> -->
-                    <iframe width="100%" height="450px" src="https://www.youtube.com/embed/m1xShagb_HM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                  <p class="has-text-dark"> Ne jamais abandonner !</p>
-                </section>
-                  <footer class="modal-card-foot">
+                        <iframe width="100%" height="450px" src="https://youtube.com/embed/BIGd0zPxNFo?feature=share"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <p class="has-text-dark"> Ne jamais abandonner !</p>
+                    </section>
+                    <!-- <footer class="modal-card-foot">
                     <button class="button">Fermer</button>
-                  </footer>
+                  </footer> -->
                 </div>
-              </div>
+            </div>
 
             <div class="modal" id="modal-thomas">
                 <div class="modal-background"> </div>
                 <div class="modal-card">
-                  <header class="modal-card-head">
-                    <p class="modal-card-title">Modal title</p>
-                    <button class="delete" aria-label="close"></button>
-                  </header>
-                  <section class="modal-card-body">
+                    <header class="modal-card-head">
+                        <p class="modal-card-title">Modal title</p>
+                        <button class="delete" aria-label="close"></button>
+                    </header>
+                    <section class="modal-card-body">
 
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PnLnEW2J4Yk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    <!-- Content ... -->
-                    <h2>TEST 2</h2>
-                  </section>
-                  <footer class="modal-card-foot">
-                    <button class="button">Fermer</button>
-                  </footer>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PnLnEW2J4Yk"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <!-- Content ... -->
+                        <h2>TEST 2</h2>
+                    </section>
+                    <footer class="modal-card-foot">
+                        <button class="button">Fermer</button>
+                    </footer>
                 </div>
-           
-              </div>
-               
-        </section>
-
-        <section id="section_banniere" >
-            <div id="formation">
-            
             </div>
         </section>
 
-<section id="section_technos">
+         <!-- SECTION BANNIERE -->
+        <section class="hero pb-6 pt-6" id="section_banniere">
+            <div class="hero-body">
+                <div class="columns pt-6">
+                    <div class="column">
+                        <h2 class="title is-2 has-text-centered"> Texte du stage</h2>
+                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos omnis tempora molestiae,
+                            inventore consequuntur accusantium harum deleniti quisquam accusamus repellat eum deserunt
+                            voluptatem culpa, necessitatibus totam laboriosam ratione illo doloremque!
+                        </p>
+                        <button class="button is-rounded" id="info">En savoir plus</button>
+                    </div>
+                    <div class="column">
+                        <div class="">
+                            <div class="card-image is-centered">
+                                <figure class="image">
+                                    <img id="stage" src="./src/img/bannieres/banniere.JPG" style="width:600px; height: 400px"
+                                        alt="" />
+                                </figure>
+                            </div>
 
-    <div id="slider">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </section>
+
+        <!-- SECTION TECHNOS-->
+<!-- <section>
+    <div id="">
         <div class="card">
-            <div class="card-image has-background-dark">
+            <div class="card-image">
                 <figure class="image  is-covered js-modal-trigger" data-target="modal-swan">
-                    <img src="./src/img/html.png" style="width:45%" alt=""/>
+                    <img src="./src/img/html.png" style="width:80%" alt=""/>
                     
                 </figure>
             </div>
@@ -178,14 +207,14 @@
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image is-covered js-modal-trigger" data-target="modal-thomas">
-                    <img src="./src/img/CSS.png" style="width:45%" alt="" />
+                    <img src="./src/img/CSS.png" style="width:80%" alt="" />
                 </figure>
             </div>
         </div>
         <div class="card ">
             <div class="card-image has-background-dark">
                 <p class="image is-covered">
-                    <img src="./src/img/Js.png" style="width:45%" alt="" />
+                    <img src="./src/img/Js.png" style="width:80%" alt="" />
 
                 </p>
             </div>
@@ -193,75 +222,139 @@
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image  is-covered">
-                    <img src="./src/img/php.png" style="width:45%" alt="" />
+                    <img src="./src/img/php.png" style="width:80%" alt="" />
                 </figure>
             </div>
         </div>
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image  is-covered">
-                    <img src="./src/img/angular.png"  style="width:45%"  alt="" />
+                    <img src="./src/img/angular.png"  style="width:80%"  alt="" />
                 </figure>
             </div>
         </div>
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image  is-covered">
-                    <img src="./src/img/bootstrap.png"  style="width:45%"  alt="" />
+                    <img src="./src/img/bootstrap.png"  style="width:80%"  alt="" />
                 </figure>
             </div>
         </div>
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image  is-covered">
-                    <img src="./src/img/sass.png" style="width:45%" alt="" />
+                    <img src="./src/img/sass.png" style="width:80%" alt="" />
                 </figure>
             </div>
         </div>
         <div class="card ">
             <div class="card-image has-background-dark">
                 <figure class="image  is-covered">
-                    <img src="./src/img/symfony.png" style="width:45%" alt="" />
+                    <img src="./src/img/symfony.png" style="width:80%" alt="" />
                 </figure>
             </div>
         </div>
         
     </div>
-          
+</section>  -->
 
-        
-</section>
+    <!-- SECTION PROJET -->
 
-</main>
+        <section class="projet pb-6">
+            <div class="container is-flex-direction-column mb-6">
+                <button class=" button is-rounded is-justify-items-center" id="promo"> Notre promo</button>
+                <h3 class="title is-3 has-text-centered"> Notre premier projet</h3>
+            </div>
+            <div class="container is-flex">
+                <div class="columns">
+                    <div class="column  is-align-content-space-around">
+                        <div class="card" style="width: 400px; height: 300px">
+                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                            <figure class="image is align-centered">
+                                <img src=".src/img/bootstrap.png" style="width: 50px; height: 50px" alt="">
+                            </figure>
+                            <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
+                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
+                                autem?</p>
+                        </div>
 
+                    </div>
+                    <div class="column is-align-content-space-around">
+                        <div class="card" style="width: 400px; height: 300px">
+                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                            <figure class="image is align-centered">
+                                <img src=".src" style="width: 50px; height: 50px" alt="">
+                            </figure>
+                            <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
+                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
+                                autem?</p>
+                        </div>
 
-    <footer  class="has-background-dark">
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="container mt-6 is-flex">
+                <div class="columns">
+                    <div class="column is-align-content-space-around">
+                        <div class="card" style="width: 400px; height: 300px">
+                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                            <figure class="image is align-centered">
+                                <img src=".src/img/bootstrap.png" style="width: 50px; height: 50px" alt="">
+                            </figure>
+                            <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
+                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
+                                autem?</p>
+                        </div>
+
+                    </div>
+                    <div class="column is-align-content-space-around">
+                        <div class="card" style="width: 400px; height: 300px">
+                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                            <figure class="image is align-centered">
+                                <img src=".src/img/angular.png" style="width: 50px; height: 50px" alt="">
+                            </figure>
+                            <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
+                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
+                                autem?</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+     <!-- SECTION FOOTER -->
+    <footer class="has-background-dark">
         <div class="container">
             <span id="copyright"> © </span> DEVFLIX <span id="annee"><b>2022</b></span>
         </div>
     </footer>
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
-        integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
-        crossorigin="anonymous"></script> -->
-
-        <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
-		<script>
-                bulmaCarousel.attach('#slider', {
-                slidesToScroll: 1,
-                slidesToShow: 4,
-                infinite: true,
-                autoplay: true,
-                pagination: false,
-                autoplaySpeed: 2500,
-                pauseOnHover: true
-                // effect: translate
-            });
-        </script>
-        <script src="./src/js/script.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+    <script>
+        bulmaCarousel.attach('#slider', {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            infinite: true,
+            autoplay: true,
+            pagination: false,
+            autoplaySpeed: 2500,
+            pauseOnHover: true
+            // effect: translate
+        });
+    </script>
+    <script src="./src/js/script.js"></script>
 </body>
 
 </html>

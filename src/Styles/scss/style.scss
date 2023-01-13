@@ -2,12 +2,48 @@
 @import "../../../node_modules/bulma/bulma.sass";
 @import "../../../node_modules/bulma-extensions/bulma-carousel/src/sass/index.sass";
 
+// POLICES
+
+@mixin googleFonts($nom){
+  @import url('https://fonts.googleapis.com/css2?family=' + $nom + '&display=swap');
+}
+@include googleFonts('$police_titre');
+@include googleFonts('$police_texte');
+
+// GLOBAL
 
 body{
+   
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: #303036;
 }
+
+.align-centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#texte-video{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-family: $police_texte;
+  font-size: 20px;
+}
+
+
+
+// ** RUBRIQUE HEADER ** 
+
+// NAVBAR
 
 .navbar{
   position: absolute;
@@ -39,20 +75,35 @@ body{
   margin: 0 25px;
 }
 
+// ** RUBRIQUE BODY **
+
+// SECTION VIDEO
+
+//VIDEO DE FOND
 #section_video{
-    // position: absolute;
-    height: 100vh;
+  height: 100vh;
 }
 
 #video{
-    position: absolute;
-    width: 100vw;
-    // max-height: 100%;
+  position: absolute;
+  width: 100vw;
 }
 
 video {
-    width: 100%;
-    opacity: 0.8;
+  width: 100%;
+  opacity: 0.8;
+}
+
+// CARROUSEL
+
+#slider{
+  top: 65%;
+  position: relative;
+  background-color: hsl(0 100% 100% / 0);
+  img{
+    border-radius: 10px;
+  }
+  
 }
 
 
@@ -66,66 +117,53 @@ video {
 //     height: 300px;
 // }
 
-.slider-item {
-      width: 200px !important;
+
+// SECTION BANNIERE
+
+.hero{
+  background-color:#303036;
+  
+}
+
+.hero p {
+  color:#ccdbde;
+}
+
+.hero h2{
+  color:#ccdbde;
 }
 
 
-#section_banniere{
-    // background: url(/src/img/bannieres/notre_formation.jpg);
+// SECTION TECHNOS
+
+// SECTION PROJET
+#info{
+  background-color:#f4e70c;
+  color: #303036;
+  margin-top: 20px;
 }
 
-#section_technos{
-    // margin-top: 20px;
+.projet{
+  background-color:#303036;
 }
+
+#promo{
+  background-color:#ccdbde;
+}
+
+.projet h3{
+  color:#ccdbde;
+}
+
+// ** RUBRIQUE FOOTER **
 
 footer{
-    height: 80px;
-}
-
-#formation{
-    position: relative;
-    width: 100%;
-    height: 500px;
-    background: url(/src/img/bannieres/notre_formation.jpg);
+  height: 80px;
 }
 
 
+// INTRO & NAVBAR 
 
-
-
-#logo{
-    width: 10%;    
-}
-
-.align-centered{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#slider{
-    top: 65%;
-    position: relative;
-    background-color: hsl(0 100% 100% / 0);
-}
-
-#texte-video{
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-#separation{
-    height: 400px;
-}
-
-p{
-    font-size: 40px;
-}
 
 @mixin animation($animate...) {
     $max: length($animate);
