@@ -1,5 +1,6 @@
 @import "../../../src/Styles/scss/variables";
 @import "../../../node_modules/bulma/bulma.sass";
+@import "../../../node_modules/bulma-extensions/bulma-carousel/src/sass/index.sass";
 
 
 body{
@@ -24,11 +25,23 @@ body{
 }
 
 video {
-    // position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
     opacity: 0.8;
+}
+
+
+// .space{
+//   background-color: blue;
+//   width: 200px;
+// }
+// figure{
+//   background-color: red;
+//     width: 200px;
+//     height: 300px;
+// }
+
+.slider-item {
+      width: 200px !important;
 }
 
 
@@ -87,7 +100,6 @@ footer{
 p{
     font-size: 40px;
 }
-
 
 @mixin animation($animate...) {
     $max: length($animate);
