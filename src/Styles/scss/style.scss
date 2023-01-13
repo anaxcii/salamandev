@@ -12,6 +12,7 @@
 
 // GLOBAL
 
+
 body{
    
     margin: 0;
@@ -22,6 +23,7 @@ body{
 
 .align-centered{
   display: flex;
+  // flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -36,8 +38,21 @@ body{
 
 p{
   font-family: $police_texte;
-  font-size: 20px;
+  font-size: 1.2em;
+  color: $couleur_tertiaire;
 }
+h1,h2,h3 {
+  font-family: $police_titre;
+  font-size: 2em;
+  color: $couleur_tertiaire;
+}
+
+ul, li{
+  font-family: $police_texte;
+  list-style: inside;
+  color: $couleur_tertiaire;
+}
+
 
 
 
@@ -72,6 +87,7 @@ p{
 }
 
 .navbar .nav-links ul li{
+  list-style: none;
   margin: 0 25px;
 }
 
@@ -103,6 +119,18 @@ video {
   img{
     border-radius: 10px;
   }
+  // img:hover{
+  //   transform: scale(150%);
+  // }
+  
+}
+#slider2{
+  top: 65%;
+  position: relative;
+  background-color: hsl(0 100% 100% / 0);
+  img{
+    border-radius: 10px;
+  }
   
 }
 
@@ -121,44 +149,66 @@ video {
 // SECTION BANNIERE
 
 .hero{
-  background-color:#303036;
+  background-color: $couleur_secondaire;
   
 }
-
-.hero p {
-  color:#ccdbde;
+#section_banniere{
+  img{
+    border-radius: 30px;
+  }
 }
 
-.hero h2{
-  color:#ccdbde;
-}
+// .hero p {
+//   color:#ccdbde;
+// }
+
+// .hero h2{
+//   color:#ccdbde;
+// }
 
 
 // SECTION TECHNOS
 
 // SECTION PROJET
-#info{
-  background-color:#f4e70c;
-  color: #303036;
-  margin-top: 20px;
-}
 
 .projet{
-  background-color:#303036;
+  background-color:$couleur_secondaire;
 }
 
-#promo{
-  background-color:#ccdbde;
+
+.bordure{
+  border: 10px solid #303036;
+  border-radius: 20px;
+  box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 17px 0px rgba(0,0,0,0.75);
 }
 
-.projet h3{
-  color:#ccdbde;
+.effet:hover{
+  box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
+  -moz-box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
+  transform: translateY(-2px);
+
 }
 
 // ** RUBRIQUE FOOTER **
 
 footer{
   height: 80px;
+  a {
+    text-decoration: none;
+  }
+  a:hover{
+   color: $couleur_tertiaire
+  }
+  span, a{
+    font-family: $police_texte;
+    font-size: 1.2em;
+    color: $couleur_tertiaire;
+  }
+  
+
 }
 
 

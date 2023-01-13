@@ -2,14 +2,18 @@ $couleur_principale: #f4e70c;
 $couleur_secondaire: #303036;
 $couleur_tertiaire: #f5f6fa;
 
-$police_titre: Merienda;
+// Zen Dots
+$police_titre: Lobster;
 $police_texte: Bebas Neue;
 
 
 $primary: $couleur_principale;
 $dark: $couleur_secondaire;
 
+
 $modal-content-width: 1000px;
+
+$title-color: $couleur_tertiaire;
 
 $modal-card-body-padding: 0px !default;
 $modal-card-head-padding: 0px !default;
@@ -17,6 +21,7 @@ $border: #000;
 $modal-card-head-border-bottom: 1px solid $border !default;
 $modal-card-head-background-color: rgba(0, 0, 0, 0) !default;
 
+// $card-content-background-color: $couleur_secondaire;
 
 
 .slider-item {

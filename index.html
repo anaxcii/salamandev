@@ -20,9 +20,9 @@
             <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
             <div class="nav-links">
                 <ul>
-                    <li> <a href="stagiaires.html">Stagiaires</a></li>
-                    <li> <a href="outils.html">Outils</a></li>
-                    <li> <a href="contact.html">Nous contacter</a></li>
+                    <!-- <li> <a href="stagiaires.html">Stagiaires</a></li> -->
+                    <li> <a href="outils.html">Trucs & Astuces</a></li>
+                    <!-- <li> <a href="contact.html">Nous contacter</a></li> -->
                 </ul>
             </div>
         </nav>
@@ -165,20 +165,22 @@
         </section>
 
          <!-- SECTION BANNIERE -->
-        <section class="hero pb-6 pt-6" id="section_banniere">
+        
+        <section class="hero pb-6 pt-5" id="section_banniere">
             <div class="hero-body">
                 <div class="columns pt-6">
-                    <div class="column">
-                        <h2 class="title is-2 has-text-centered"> Texte du stage</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos omnis tempora molestiae,
-                            inventore consequuntur accusantium harum deleniti quisquam accusamus repellat eum deserunt
-                            voluptatem culpa, necessitatibus totam laboriosam ratione illo doloremque!
-                        </p>
-                        <button class="button is-rounded" id="info">En savoir plus</button>
+                    <div style="height: 400px" class="column is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
+                            <!-- <h2 class="title is-2"> Notre promo</h2> -->
+                            <img src="./src/img/logo/Logo_Jaune.png">
+                            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos omnis tempora molestiae,
+                                inventore consequuntur accusantium harum deleniti quisquam accusamus repellat eum deserunt
+                                voluptatem culpa, necessitatibus totam laboriosam ratione illo doloremque!
+                            </p>
+                        <button class="button is-primary is-rounded" id="info">En savoir plus</button>
                     </div>
                     <div class="column">
                         <div class="">
-                            <div class="card-image is-centered">
+                            <div class="card-image ">
                                 <figure class="image">
                                     <img id="stage" src="./src/img/bannieres/banniere.JPG" style="width:600px; height: 400px"
                                         alt="" />
@@ -193,103 +195,88 @@
 
         </section>
 
-        <!-- SECTION TECHNOS-->
-<!-- <section>
-    <div id="">
-        <div class="card">
-            <div class="card-image">
-                <figure class="image  is-covered js-modal-trigger" data-target="modal-swan">
-                    <img src="./src/img/html.png" style="width:80%" alt=""/>
-                    
-                </figure>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image is-covered js-modal-trigger" data-target="modal-thomas">
-                    <img src="./src/img/CSS.png" style="width:80%" alt="" />
-                </figure>
-            </div>
-        </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <p class="image is-covered">
-                    <img src="./src/img/Js.png" style="width:80%" alt="" />
+    <!-- SECTION TECHNOS -->
 
-                </p>
-            </div>
+    <div id="slider2" class="has-background-dark">
+        <div class="">
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/CSS HTML.jpg" style="width:80%" alt="" />
+            </figure>
         </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image  is-covered">
-                    <img src="./src/img/php.png" style="width:80%" alt="" />
-                </figure>
-            </div>
+        <div class="">
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
+                <img src="./src/img/technos/Javascript.jpg" style="width:80%" alt="" />
+            </figure>
         </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image  is-covered">
-                    <img src="./src/img/angular.png"  style="width:80%"  alt="" />
-                </figure>
-            </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/PHP.jpg" style="width:80%" alt="" />
+            </figure>
         </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image  is-covered">
-                    <img src="./src/img/bootstrap.png"  style="width:80%"  alt="" />
-                </figure>
-            </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/symfony.jpg" style="width:80%" alt="" />
+            </figure>
         </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image  is-covered">
-                    <img src="./src/img/sass.png" style="width:80%" alt="" />
-                </figure>
-            </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/tron.jpg" style="width:80%" alt="" />
+            </figure>
         </div>
-        <div class="card ">
-            <div class="card-image has-background-dark">
-                <figure class="image  is-covered">
-                    <img src="./src/img/symfony.png" style="width:80%" alt="" />
-                </figure>
-            </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/Angular.png" style="width:80%" alt="" />
+            </figure>
         </div>
-        
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/Typescript.png" style="width:80%" alt="" />
+            </figure>
+        </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/casadepapa.jpg" style="width:80%" alt="" />
+            </figure>
+        </div>
+        <div>
+            <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <img src="./src/img/technos/Wordpress.jpg" style="width:80%" alt="" />
+            </figure>
+        </div>
     </div>
-</section>  -->
+       
 
     <!-- SECTION PROJET -->
 
-        <section class="projet pb-6">
-            <div class="container is-flex-direction-column mb-6">
-                <button class=" button is-rounded is-justify-items-center" id="promo"> Notre promo</button>
-                <h3 class="title is-3 has-text-centered"> Notre premier projet</h3>
+        <section class="projet pt-6 pb-6 is-flex is-flex-direction-column">
+            <div class="container is-flex-direction-column pb-6">
+                <h2 class="title is-2 has-text-centered pt-6"> Notre premier projet de groupe à 16 </h2>
             </div>
+            
             <div class="container is-flex">
                 <div class="columns">
                     <div class="column  is-align-content-space-around">
-                        <div class="card" style="width: 400px; height: 300px">
-                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                        <div class="bordure effet" style="width: 400px; height: 300px">
+                            <h3 class="title is-3 has-text-centered"> Equipe Contenu</h3>
                             <figure class="image is align-centered">
-                                <img src=".src/img/bootstrap.png" style="width: 50px; height: 50px" alt="">
+                                <img src="./src/img/logo/contenu.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
-                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
-                                autem?</p>
+                                Laborum ducimus,  exercitationem
+                                dolorem laboruas praesentium autem?</p>
+                                
                         </div>
 
                     </div>
                     <div class="column is-align-content-space-around">
-                        <div class="card" style="width: 400px; height: 300px">
-                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                        <div class="bordure effet" style="width: 400px; height: 300px">
+                            <h3 class="title is-3 has-text-centered"> Equipe Graphismes</h3>
                             <figure class="image is align-centered">
-                                <img src=".src" style="width: 50px; height: 50px" alt="">
+                                <img src="./src/img/logo/graphisme.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
-                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
-                                autem?</p>
+                                Laborum ducimus, temum exercitationem
+                                dolorem laboruas praesentium autem?</p>
                         </div>
 
                     </div>
@@ -300,28 +287,26 @@
             <div class="container mt-6 is-flex">
                 <div class="columns">
                     <div class="column is-align-content-space-around">
-                        <div class="card" style="width: 400px; height: 300px">
-                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                        <div class="bordure effet" style="width: 400px; height: 300px">
+                            <h3 class="title is-3 has-text-centered"> Equipe Technique</h3>
                             <figure class="image is align-centered">
-                                <img src=".src/img/bootstrap.png" style="width: 50px; height: 50px" alt="">
+                                <img src="./src/img/logo/technique.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
-                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
-                                autem?</p>
+                                Laborum ducimus, rcitationem
+                                dolorem laboruas praesentium autem?</p>
                         </div>
 
                     </div>
                     <div class="column is-align-content-space-around">
-                        <div class="card" style="width: 400px; height: 300px">
-                            <h1 class="title is-2 has-text-centered"> Titre</h1>
+                        <div class="bordure effet" style="width: 400px; height: 300px">
+                            <h3 class="title is-3 has-text-centered">Equipe Projet</h3>
                             <figure class="image is align-centered">
-                                <img src=".src/img/angular.png" style="width: 50px; height: 50px" alt="">
+                                <img src="./src/img/logo/gestion_projet.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <p class="has-text-centered"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                Laborum ducimus, tempore minus ratione repellendus cumque vitae rerum exercitationem
-                                dolorem labore minima quidem similique omnis! Nobis suscipit tempore quas praesentium
-                                autem?</p>
+                                Laborum cumque vitae rerum exercitationem
+                                dolorem laboruas praesentium autem?</p>
                         </div>
 
                     </div>
@@ -334,16 +319,26 @@
     </main>
 
      <!-- SECTION FOOTER -->
-    <footer class="has-background-dark">
-        <div class="container">
-            <span id="copyright"> © </span> DEVFLIX <span id="annee"><b>2022</b></span>
-        </div>
+    <footer class="has-background-dark is-flex is-justify-content-space-around pt-5">
+        <span>copyright © DEVFLIX 2022</span>
+        <a href="./mentions_legales.html"> Mentions légales & politique de confidentialité</a>
+        <a href="mailto:salamandevv@gmail.com"> Contactez-nous </a>
     </footer>
 
     
     <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
     <script>
         bulmaCarousel.attach('#slider', {
+            slidesToScroll: 1,
+            slidesToShow: 4,
+            infinite: true,
+            autoplay: true,
+            pagination: false,
+            autoplaySpeed: 2500,
+            pauseOnHover: true
+            // effect: translate
+        });
+        bulmaCarousel.attach('#slider2', {
             slidesToScroll: 1,
             slidesToShow: 4,
             infinite: true,
