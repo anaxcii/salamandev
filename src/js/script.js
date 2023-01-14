@@ -42,16 +42,27 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-  $(document).ready(function(){
-       
-    $(window).scroll(function(){
-
-      if($(window).scrollTop()>50){
-        $('nav').addClass('black');
-      }else{
-        $('nav').removeClass('black');
-      }
-
-    });
-
-});
+  window.addEventListener("scroll",function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY > 0);
+  })
+  var sidenav = document.getElementById("mySidenav");
+  var openBtn = document.getElementById("openBtn");
+  var closeBtn = document.getElementById("closeBtn");
+  
+  openBtn.onclick = openNav;
+  closeBtn.onclick = closeNav;
+  
+  /* Set the width of the side navigation to 250px */
+  function openNav() {
+    sidenav.classList.add("active");
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    sidenav.classList.remove("active");
+  }
+  window.addEventListener("scroll",function(){
+    var header = document.querySelector("header");
+    header.classList.toggle("sticky",window.scrollY > 0);
+  })

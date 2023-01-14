@@ -7,25 +7,30 @@
     <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
     <link rel="stylesheet" href="./node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css">
     <link rel="stylesheet" href="./src/Styles/css/style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
     <title>DEVFLIX</title>
 </head>
 
 <body class="has-text-light">
-
     <header>
         <!-- NAVBAR -->
-        <nav class="navbar">
-            <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
-            <div class="nav-links">
-                <ul>
-                    <!-- <li> <a href="stagiaires.html">Stagiaires</a></li> -->
-                    <li> <a href="outils.html">Trucs & Astuces</a></li>
-                    <!-- <li> <a href="contact.html">Nous contacter</a></li> -->
-                </ul>
-            </div>
-        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" class="close">&times;</a>
+            <ul>
+            <br>
+            <br>
+              <li><a href="#">A propos</a></li>
+              <li><a href="#">Stagiaires</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
+          <a id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </a>
     </header>
 
     <main>
