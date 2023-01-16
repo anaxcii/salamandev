@@ -19,9 +19,9 @@
             <ul>
                 <br>
                 <br>
-                <li><a href="#">A propos</a></li>
-                <li><a href="#">Stagiaires</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./notre_equipe.html">Notre équipe</a></li>
+                <li><a href="mailto:salamandevv@gmail.com">Contactez-nous</a></li>
             </ul>
         </div>
         <a href="index.html" class="logo"><img src="./src/img/logoreduit.png"></a>
@@ -39,7 +39,7 @@
         <section id="section_video" class="has-background-dark">
             <div id="video">
                 <video playsinline autoplay muted loop poster="">
-                    <source src="./src/videos/social.mp4" type="video/mp4">
+                    <source src="./src/videos/salamandev.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <!-- <div id="texte-video"> -->
@@ -116,6 +116,16 @@
                 <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-domi">
                         <img src="./src/img/films/Domi.png" style="width:90%" alt="" />
+                    </figure>
+                </div>
+                <div>
+                    <figure class="has-text-centered js-modal-trigger" data-target="modal-kemal">
+                        <img src="./src/img/films/kemal.jpg" style="width:90%" alt="" />
+                    </figure>
+                </div>
+                <div>
+                    <figure class="has-text-centered js-modal-trigger" data-target="modal-blandine">
+                        <img src="./src/img/films/blandine.jpg" style="width:90%" alt="" />
                     </figure>
                 </div>
             </div>
@@ -539,9 +549,65 @@
                 </div>
             </div>
 
+            <div class="modal" id="modal-kemal">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head is-flex is-justify-content-flex-end">
+                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
+                            <p class="modal-card-title"></p>
+                            <button class="delete" aria-label="close"></button>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+                        <!-- <iframe width="100%" height="450px" src=""
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe> -->
+                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
+                                “De nature ambitieuse, optimiste, proactif, emphatique.”
+                            </p>
+                            <div class="is-flex is-justify-content-space-around is-align-items-center"
+                                style="width: 300px">
+                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                                <a href="#">Mon portfolio </a>
+                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                                <a href="#">Linkedin/... </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
 
-
-
+            <div class="modal" id="modal-blandine">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head is-flex is-justify-content-flex-end">
+                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
+                            <p class="modal-card-title"></p>
+                            <button class="delete" aria-label="close"></button>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/BIGd0zPxNFo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
+                                “Il n’y a aucune limite à ce que vous pouvez accomplir, votre potentiel <br>est immense ! Libérez vous de vos limites, prenez conscience de votre puissance <br> et acceptez de briller.”
+                            </p>
+                            <div class="is-flex is-justify-content-space-around is-align-items-center"
+                                style="width: 300px">
+                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                                <a href="#">Mon portfolio </a>
+                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                                <a href="#">Linkedin/... </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
 
         </section>
 
@@ -565,13 +631,14 @@
                             # Stage # Human Booster # Formation
                             <br>
                             <br>
-                            Parce que la vie ce n’est pas que du cinéma, tous les membres de l’équipe sont disponibles
+                            Parce que la vie ce n’est pas que du cinéma, tous les acteurs de l’équipe sont disponibles
                             pour un stage de 2 mois dans le cadre de la validation de notre titre professionnel de
                             "Développeur Web & Web Mobile".
                         </p>
+                        <br>
 
-                        <button class="button is-primary is-rounded has-text-dark" id="info"><b>En savoir
-                                plus</b></button>
+                        <button class="button is-primary is-rounded has-text-dark" id="info"><b><a href="./src/files/Fiche_Stage.pdf">En savoir
+                            plus</a></b></button>
                     </div>
                     <div class="column">
                         <div class="">
@@ -596,47 +663,47 @@
 
         <div id="slider2" class="has-background-dark">
             <div class="">
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/CSS HTML.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div class="">
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/Javascript.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/PHP.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/symfony.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/tron.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/Angular.png" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/Typescript.png" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/casadepapa.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
             <div>
-                <figure class="has-text-centered js-modal-trigger" data-target="modal-swan">
+                <figure class="has-text-centered js-modal-trigger" data-target="">
                     <img src="./src/img/technos/Wordpress.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
@@ -647,32 +714,31 @@
 
         <section class="projet pt-6 pb-6 is-flex is-flex-direction-column">
             <div class="container is-flex-direction-column pb-6">
-                <h2 class="title is-2 has-text-centered pt-6"> Notre premier projet de groupe à 16 </h2>
+                <h2 class="title is-2 has-text-centered pt-6"> Une superproduction à 16 !</h2>
             </div>
 
             <div class="container is-flex">
                 <div class="columns">
                     <div class="column  is-align-content-space-around">
                         <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                            <h3 class="title is-3 has-text-centered"> Equipe Contenu</h3>
+                            <h3 class="title is-3 has-text-centered"> Scénario / tournage</h3>
                             <figure class="image is align-centered">
                                 <img src="./src/img/logo/contenu.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <br>
-                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b>En savoir
-                                plus</b></button>
+                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie1">Membres
+                                </a></b></button>
                         </div>
 
                     </div>
                     <div class="column  is-align-content-space-around">
                         <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                            <h3 class="title is-3 has-text-centered"> Equipe Graphisme</h3>
+                            <h3 class="title is-3 has-text-centered"> Effets spéciaux</h3>
                             <figure class="image is align-centered">
                                 <img src="./src/img/logo/graphisme.png" style="width: 100px; height: 100px" alt="">
                             </figure>
                             <br>
-                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b>En savoir
-                                plus</b></button>
+                            <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie2">Membres</a></b></button>
                         </div>
 
                     </div>
@@ -685,13 +751,12 @@
                     <div class="column is-align-content-space-around">
                         <div class="column  is-align-content-space-around">
                             <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                                <h3 class="title is-3 has-text-centered"> Equipe Technique</h3>
+                                <h3 class="title is-3 has-text-centered"> Réalisation technique</h3>
                                 <figure class="image is align-centered">
                                     <img src="./src/img/logo/technique.png" style="width: 100px; height: 100px" alt="">
                                 </figure>
                                 <br>
-                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b>En savoir
-                                    plus</b></button>
+                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie3">Membres</a></b></button>
                             </div>
     
                         </div>
@@ -700,13 +765,12 @@
                     <div class="column is-align-content-space-around">
                         <div class="column  is-align-content-space-around">
                             <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                                <h3 class="title is-3 has-text-centered"> Equipe Projet</h3>
+                                <h3 class="title is-3 has-text-centered"> Production</h3>
                                 <figure class="image is align-centered">
                                     <img src="./src/img/logo/gestion_projet.png" style="width: 100px; height: 100px" alt="">
                                 </figure>
                                 <br>
-                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b>En savoir
-                                    plus</b></button>
+                                <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie4"> Membres</a></b></button>
                             </div>
     
                         </div>

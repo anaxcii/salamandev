@@ -174,7 +174,7 @@ video {
 // CARROUSEL
 
 #slider{
-  top: 60%;
+  top: 70%;
   position: relative;
   z-index: 3;
   background-color: hsl(0 100% 100% / 0);
@@ -225,6 +225,13 @@ video {
 #section_banniere{
   img{
     border-radius: 30px;
+  }
+  a{
+    color: $couleur_secondaire;
+  //   text-decoration: none;
+  }
+  a:active{
+    color:$couleur_secondaire;
   }
 }
 
