@@ -21,9 +21,25 @@ $border: #000;
 $modal-card-head-border-bottom: 1px solid $border !default;
 $modal-card-head-background-color: rgba(0, 0, 0, 0) !default;
 
+$modal-card-head-padding: 120px !default;
+
+.modal-card-head{
+    // left: 1000px;
+    // // display: flex !important;
+    // justify-content: flex-end !important;
+}
+
 // $card-content-background-color: $couleur_secondaire;
 
 
 .slider-item {
     width: 200px !important;
+}
+
+.slider-navigation-next{
+    background: $couleur_secondaire center center no-repeat !important;
+}
+
+.slider-navigation-previous{
+    background: $couleur_secondaire center center no-repeat !important;
 }

@@ -47,11 +47,11 @@ h1,h2,h3 {
   color: $couleur_tertiaire;
 }
 
-//ul, li{
-  //font-family: $police_texte;
-  //list-style: inside;
-  //color: $couleur_tertiaire;
-//}
+p+ul{
+  font-family: $police_texte;
+  list-style: inside;
+  color: $couleur_tertiaire;
+}
 
 
 
@@ -61,7 +61,7 @@ h1,h2,h3 {
 // NAVBAR
 
 header{
-  z-index: 1;
+  z-index: 4;
   position: fixed;
   top: 0;
   left: 0;
@@ -87,7 +87,7 @@ header{
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
     top: 0;
     left: -250px;
     background-color:#303036;
@@ -155,11 +155,28 @@ video {
   opacity: 0.8;
 }
 
+// #texte_video{
+//   position: absolute;
+//   top: 40%;
+//   // height: 100%;
+//     // display: flex;
+//     // justify-content: center;
+//     // align-items: center;
+//     h1{
+//       position: absolute;
+//       top: 40%;
+//       z-index: 2;
+//     }
+// }
+
+
+
 // CARROUSEL
 
 #slider{
-  top: 65%;
+  top: 60%;
   position: relative;
+  z-index: 3;
   background-color: hsl(0 100% 100% / 0);
   img{
     border-radius: 10px;
@@ -179,6 +196,12 @@ video {
   
 }
 
+.modal-align{
+  display: flex;
+  align-items: center;
+
+}
+
 
 // .space{
 //   background-color: blue;
@@ -194,7 +217,9 @@ video {
 // SECTION BANNIERE
 
 .hero{
+  position: relative;
   background-color: $couleur_secondaire;
+  z-index: 2;
   
 }
 #section_banniere{
@@ -233,7 +258,7 @@ video {
   box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
   -webkit-box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
   -moz-box-shadow: 4px 13px 17px 9px rgba(0,0,0,0.4);
-  transform: translateY(-2px);
+  transform: translateY(+2px);
 
 }
 
