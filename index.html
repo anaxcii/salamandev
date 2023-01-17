@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="./src/img/logo/favicon.png">
-    <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
-    <link rel="stylesheet" href="./node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css">
+    <!-- <link rel="stylesheet" href="./node_modules/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="./node_modules/bulma-extensions/bulma-carousel/dist/css/bulma-carousel.min.css"> -->
     <link rel="stylesheet" href="./src/Styles/css/style.css">
     <title>DEVFLIX</title>
 </head>
@@ -21,6 +21,7 @@
                 <br>
                 <li><a href="./index.html">Accueil</a></li>
                 <li><a href="./notre_equipe.html">Notre équipe</a></li>
+                <li><a href="https://drive.google.com/drive/folders/1NbCTqH_49f0U3JUN233KlhuSFyZUgSow">Télécharger vidéo</a></li>
                 <li><a href="mailto:salamandevv@gmail.com">Contactez-nous</a></li>
             </ul>
         </div>
@@ -36,8 +37,8 @@
 
     <main>
         <!-- SECTION VIDEO -->
-        <section id="section_video" class="has-background-dark">
-            <div id="video">
+        <section id="section_video" class="has-background-dark pb-6">
+            <div id="video" >
                 <video playsinline autoplay muted loop poster="">
                     <source src="./src/videos/salamandev.mp4" type="video/mp4">
                     Your browser does not support the video tag.
@@ -55,7 +56,7 @@
                 </div>
                 <div class="">
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-thomas">
-                        <img src="./src/img/films/Thomas.png" style="width:90%" alt="" />
+                        <img src="./src/img/films/Thomas2.png" style="width:90%" alt="" />
                     </figure>
                 </div>
                 <div>
@@ -124,13 +125,19 @@
                     </figure>
                 </div>
                 <div>
+                    <figure class="has-text-centered js-modal-trigger" data-target="modal-anturia">
+                        <img src="./src/img/films/anturia.jpg" style="width:90%" alt="" />
+                    </figure>
+                </div>
+                <div>
                     <figure class="has-text-centered js-modal-trigger" data-target="modal-blandine">
                         <img src="./src/img/films/blandine.jpg" style="width:90%" alt="" />
                     </figure>
                 </div>
+                
             </div>
             <!-- LES MODALES DE CHACUN -->
-            <div class="modal" id="modal-swan">
+            <div class="modal is-hidden-mobile" id="modal-swan">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -145,21 +152,20 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                         <div class="is-flex is-justify-content-space-around is-flex-grow-2">
-                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> Tomber 100 fois, se relever 100
-                                fois ...</p>
+                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> “Vas où tu veux, meurs où tu dois !”</p>
                             <div class="is-flex is-justify-content-space-around is-align-items-center"
                                 style="width: 300px">
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/swan-daphne-dev-webweb/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-thomas">
+            <div class="modal is-hidden-mobile" id="modal-thomas">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -182,14 +188,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/thomas-moreau-dev-web" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-karim">
+            <div class="modal is-hidden-mobile" id="modal-karim">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -212,14 +218,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="http://www.linkedin.com/in/karim-mouellef" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-adam">
+            <div class="modal is-hidden-mobile" id="modal-adam">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -242,14 +248,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/affouard-adam-d%C3%A9v-web/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-cyrinne">
+            <div class="modal is-hidden-mobile" id="modal-cyrinne">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -272,14 +278,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="cyrinegl.pro@gmail.com">Mail </a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-stephane">
+            <div class="modal is-hidden-mobile" id="modal-stephane">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -302,14 +308,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="http://www.linkedin.com/in/stéphane-marliacy-devweb" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-adrien">
+            <div class="modal is-hidden-mobile" id="modal-adrien">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -332,14 +338,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/adrien-lutz-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-amazir">
+            <div class="modal is-hidden-mobile" id="modal-amazir">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -355,21 +361,21 @@
                             allowfullscreen></iframe>
                         <div class="is-flex is-justify-content-space-around is-flex-grow-2">
                             <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Ce n'est pas personnel, c'est uniquement les affaires.”
+                                “La seule façon d'être vraiment satisfait est de faire ce que vous croyez être un excellent travail.”
                             </p>
                             <div class="is-flex is-justify-content-space-around is-align-items-center"
                                 style="width: 300px">
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/amazir-bensaadi-6794171b0/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-arnaud">
+            <div class="modal is-hidden-mobile" id="modal-arnaud">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -392,14 +398,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/arnaud-bravard-developpeur-web/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-bertrand">
+            <div class="modal is-hidden-mobile" id="modal-bertrand">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -415,21 +421,21 @@
                             allowfullscreen></iframe>
                         <div class="is-flex is-justify-content-space-around is-flex-grow-2">
                             <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “”
+                                “Vous savez, moi je ne crois pas qu'il y ait de bonne ou de mauvaise citation...”
                             </p>
                             <div class="is-flex is-justify-content-space-around is-align-items-center"
                                 style="width: 300px">
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/bertrandpellerin/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-kevin">
+            <div class="modal is-hidden-mobile" id="modal-kevin">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -452,14 +458,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/kevin-komoto-d%C3%A9veloppeur-web/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-naima">
+            <div class="modal is-hidden-mobile" id="modal-naima">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -482,14 +488,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/developpeur-web-nahima-toumi/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-sebastien">
+            <div class="modal is-hidden-mobile" id="modal-sebastien">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -512,14 +518,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/sebastienpelc/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-domi">
+            <div class="modal is-hidden-mobile" id="modal-domi">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -542,14 +548,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/domitile-sainz/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-kemal">
+            <div class="modal is-hidden-mobile" id="modal-kemal">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -572,14 +578,14 @@
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="https://www.linkedin.com/in/kemal-husein" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
                 </div>
             </div>
 
-            <div class="modal" id="modal-blandine">
+            <div class="modal is-hidden-mobile" id="modal-anturia">
                 <div class="modal-background"></div>
                 <div class="modal-card">
                     <header class="modal-card-head is-flex is-justify-content-flex-end">
@@ -595,14 +601,44 @@
                             allowfullscreen></iframe>
                         <div class="is-flex is-justify-content-space-around is-flex-grow-2">
                             <p class="has-text-dark is-3"><span><b> DEVISE : </b></span> 
-                                “Il n’y a aucune limite à ce que vous pouvez accomplir, votre potentiel <br>est immense ! Libérez vous de vos limites, prenez conscience de votre puissance <br> et acceptez de briller.”
+                                “A vaincre sans péril, on triomphe sans gloire.”
                             </p>
                             <div class="is-flex is-justify-content-space-around is-align-items-center"
                                 style="width: 300px">
                                 <img src="./src/img/logo/Github.png" alt="" width="20px" />
                                 <a href="#">Mon portfolio </a>
                                 <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
-                                <a href="#">Linkedin/... </a>
+                                <a href="http://www.linkedin.com/in/anturia-hassani" target="_blank">Linkedin</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <div class="modal is-hidden-mobile" id="modal-blandine">
+                <div class="modal-background"></div>
+                <div class="modal-card">
+                    <header class="modal-card-head is-flex is-justify-content-flex-end">
+                        <div class="is-flex is-justify-content-flex-end" style="width:1000px">
+                            <p class="modal-card-title"></p>
+                            <button class="delete" aria-label="close"></button>
+                        </div>
+                    </header>
+                    <section class="modal-card-body">
+                        <iframe width="100%" height="450px" src="https://www.youtube.com/embed/BIGd0zPxNFo"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="is-flex is-justify-content-space-around is-flex-grow-2">
+                            <p class="has-text-dark is-3"><span><b> DEVISE : </b></span>
+                                “Il n’y a aucune limite à ce que vous pouvez accomplir, votre potentiel est immense !”
+                            </p>
+                            <div class="is-flex is-justify-content-space-around is-align-items-center"
+                                style="width: 300px">
+                                <img src="./src/img/logo/Github.png" alt="" width="20px" />
+                                <a href="#">Mon portfolio </a>
+                                <img src="./src/img/logo/linkedin.png" alt="" width="20px" />
+                                <a href="https://www.linkedin.com/in/blandinerenucciconsultanterhcoachpro/" target="_blank">Linkedin</a>
                             </div>
                         </div>
                     </section>
@@ -613,39 +649,38 @@
 
         <!-- SECTION BANNIERE -->
 
-        <section class="hero pb-6 pt-5" id="section_banniere">
+        <section class="hero pb-6 pt-1" id="section_banniere">
             <div class="hero-body">
-                <div class="columns pt-6">
-                    <div style="height: 400px"
+                <div class="columns pt-1">
+                    <div style="height: 100vh"
                         class="column is-flex is-flex-direction-column is-align-items-center is-justify-content-center">
-                        <img src="./src/img/logo/Logo_Jaune.png">
+                        <img class="image" src="./src/img/logo/Logo_Jaune2.png">
                         <br>
                         <div class="is-flex is-align-items-center is-justify-content-space-around">
                             <img class="image is-32x32" src="./src/img/logo/cloche.png">
                             <h3 class="is-3 pl-3">Nouveautés les plus regardées</h3>
                         </div>
-                        <br>
-                        <p>
-                            Disponibles à partir du <b>28 septembre jusqu’au 27 novembre 2023</b>.
-                            <br>
-                            # Stage # Human Booster # Formation
-                            <br>
-                            <br>
-                            Parce que la vie ce n’est pas que du cinéma, tous les acteurs de l’équipe sont disponibles
-                            pour un stage de 2 mois dans le cadre de la validation de notre titre professionnel de
-                            "Développeur Web & Web Mobile".
-                        </p>
-                        <br>
+                        <div class="pb-6 column is-two-thirds has-text-justified">
+                            <p>
+                                    Disponibles à partir du <b>28 septembre jusqu’au 27 novembre 2023</b>.
+                                    <br>
+                                    # Stage # Human Booster # Développeur Web
+                                    <br>
+                                    <br>
+                                    Parce que la vie ce n’est pas que du cinéma, tous les acteurs de l’équipe sont disponibles
+                                    pour un stage de 2 mois dans le cadre de la validation de notre titre professionnel de
+                                    "Développeur Web & Web Mobile".
+                            </p>
+                        </div>
 
                         <button class="button is-primary is-rounded has-text-dark" id="info"><b><a href="./src/files/Fiche_Stage.pdf">En savoir
                             plus</a></b></button>
                     </div>
-                    <div class="column">
+                    <div class="column is-flex is-align-items-center">
                         <div class="">
                             <div class="card-image ">
                                 <figure class="image">
-                                    <img id="stage" src="./src/img/bannieres/banniere.JPG"
-                                        style="width:600px; height: 400px" alt="" />
+                                    <img id="stage" src="./src/img/bannieres/banniere2.jpg" alt="" />
                                 </figure>
                             </div>
 
@@ -663,7 +698,7 @@
 
         <div id="slider2" class="has-background-dark">
             <div class="">
-                <figure class="has-text-centered js-modal-trigger" data-target="">
+                <figure class="has-text-centered" data-target="">
                     <img src="./src/img/technos/CSS HTML.jpg" style="width:90%" alt="" />
                 </figure>
             </div>
@@ -714,28 +749,27 @@
 
         <section class="projet pt-6 pb-6 is-flex is-flex-direction-column">
             <div class="container is-flex-direction-column pb-6">
-                <h2 class="title is-2 has-text-centered pt-6"> Une superproduction à 16 !</h2>
+                <h2 class="title is-2 has-text-centered pt-6"> Une super-production à 16 !</h2>
             </div>
 
             <div class="container is-flex">
                 <div class="columns">
                     <div class="column  is-align-content-space-around">
-                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                            <h3 class="title is-3 has-text-centered"> Scénario / tournage</h3>
-                            <figure class="image is align-centered">
-                                <img src="./src/img/logo/contenu.png" style="width: 100px; height: 100px" alt="">
+                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
+                            <!-- <h3 class="title is-3 has-text-centered"> Scénario / Tournage</h3> -->
+                            <figure class="image is-200x200 is align-centered">
+                                <img src="./src/img/logo/Clap_scenario.png" alt="">
                             </figure>
                             <br>
                             <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie1">Membres
                                 </a></b></button>
                         </div>
-
                     </div>
                     <div class="column  is-align-content-space-around">
-                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                            <h3 class="title is-3 has-text-centered"> Effets spéciaux</h3>
-                            <figure class="image is align-centered">
-                                <img src="./src/img/logo/graphisme.png" style="width: 100px; height: 100px" alt="">
+                        <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
+                            <!-- <h3 class="title is-3 has-text-centered"> Effets spéciaux</h3> -->
+                            <figure class="image is-200x200 is align-centered">
+                                <img src="./src/img/logo/Clap_fx.png" alt="">
                             </figure>
                             <br>
                             <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie2">Membres</a></b></button>
@@ -750,10 +784,10 @@
                 <div class="columns">
                     <div class="column is-align-content-space-around">
                         <div class="column  is-align-content-space-around">
-                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                                <h3 class="title is-3 has-text-centered"> Réalisation technique</h3>
-                                <figure class="image is align-centered">
-                                    <img src="./src/img/logo/technique.png" style="width: 100px; height: 100px" alt="">
+                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
+                                <!-- <h3 class="title is-3 has-text-centered"> Réalisation technique</h3> -->
+                                <figure class="image is-200x200 is align-centered">
+                                    <img src="./src/img/logo/Clap-Technique.png"  alt="">
                                 </figure>
                                 <br>
                                 <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="./notre_equipe.html#galerie3">Membres</a></b></button>
@@ -764,10 +798,10 @@
                     </div>
                     <div class="column is-align-content-space-around">
                         <div class="column  is-align-content-space-around">
-                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 300px">
-                                <h3 class="title is-3 has-text-centered"> Production</h3>
-                                <figure class="image is align-centered">
-                                    <img src="./src/img/logo/gestion_projet.png" style="width: 100px; height: 100px" alt="">
+                            <div class="bordure effet is-flex is-flex-direction-column is-align-items-center" style="width: 400px; height: 500px">
+                                <!-- <h3 class="title is-3 has-text-centered"> Production</h3> -->
+                                <figure class="image is-200x200 is align-centered">
+                                    <img src="./src/img/logo/Clap_production.png" alt="">
                                 </figure>
                                 <br>
                                 <button class="button is-primary is-rounded has-text-dark" style="width:150px" id="info"><b><a href="notre_equipe.html#galerie4"> Membres</a></b></button>

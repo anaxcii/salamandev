@@ -14,6 +14,25 @@
             border-radius: 20px;
         }
 
+        div a{
+            cursor: crosshair;
+            text-decoration: none;
+            
+        }
+
+        @media (min-width: 768px){
+            h2{
+                font-weight: bold;
+                font-size: 20px;
+            }
+            p{
+                /* font-size: 17px; */
+            }
+            /* .column{
+                flex-direction: row;
+            } */
+        }
+        
     </style>
 </head>
 
@@ -87,11 +106,9 @@
                 </div>
                 <div class="column ">
                     <div class="is-flex is-flex-direction-column is-align-items-center">
-                        <h2 class="title is-2">L'équipe contenu </h2>
-                        <p> Le pôle chargé de la création du contenu se compose de deux équipes : l’équipe rédaction et
-                            l'équipe vidéo. L’équipe vidéo a rapidement adopté le format Konbini, plus spécifiquement
-                            les vidéos courtes “fast & curious”. L’équipe rédaction s’est alors chargée de rédiger des
-                            questions générales et d’autres plus personnelles.
+                        <h2 class="is-size-2-desktop is-uppercase">Scénario / tournage </h2>
+                        <br>
+                        <p class="has-text-justified"> Le pôle chargé de la création du contenu se compose de deux équipes : l’équipe rédaction et l'équipe vidéo. L’équipe vidéo a rapidement adopté le format Konbini, plus spécifiquementles vidéos courtes “fast & curious”. L’équipe rédaction s’est alors chargée de rédiger des questions générales et d’autres plus personnelles.
 
                             Ensemble, les deux équipes ont travaillé au tournage des formats courts mais également au
                             script d’une vidéo collective en s’adaptant au matériel en leur possession et à
@@ -120,8 +137,10 @@
                 <!-- Left side -->
                 <div class="column is-flex is-flex-direction-column is-justify-content-center">
                     <div class="is-flex is-flex-direction-column is-align-items-center">
-                        <h2 class="title is-2">L'équipe graphisme </h2>
-                        <p>
+                        <h2 class="is-size-2-desktop is-uppercase">Effets spéciaux </h2>
+                        <div id="betisier" style="width:20px;height:20px; cursor: crosshair"><a href="https://www.youtube.com/embed/BIGd0zPxNFo">Surprise</a></div>
+                        <br>
+                        <p class="has-text-justified">
                             L'équipe graphique Devflix a joué un rôle clé dans la mise en place de l'identité visuelle de notre site web. Elle a été chargée de tout le côté design, de la palette de couleurs à l'élaboration du logo de notre entreprise.L'équipe à commencer par faire de veille p
 
                             Tout d'abord, l'équipe graphique a travaillé sur la charte graphique de Devflix. Elle a choisi les couleurs qui correspondent le mieux à son image en veillant à ce qu'elles soient en harmonie les unes avec les autres. Elle a également choisi les polices d'écriture qui conviennent le mieux à notre site, en veillant à ce qu'elles soient lisibles et adaptées à différents types de contenus.
@@ -191,7 +210,7 @@
                         <div class="column is-flex is-flex-direction-column">
                             <figure class="has-text-centered">
                                 <img src="./src/img/films/sebastien.jpg" style="width: 65%;" alt="" />
-                                <p class="pb-4">sebastien</p>
+                                <p class="pb-4">Sebastien</p>
                             </figure>
                             <figure class="has-text-centered">
                                 <img src="./src/img/films/kemal.jpg" style="width:65%" alt="" />
@@ -201,15 +220,16 @@
                     </div>
                 </div>
 
-                <div class="column is-flex is-flex-direction-column is-justify-content-center">
+                <div class="column is-flex is-flex-direction-column is-justify-content-flex-start">
                     <div class="is-flex is-flex-direction-column is-align-items-center">
-                        <h2 class="title is-2">L'équipe technique</h2>
-                        <p>
+                        <h2 class="is-size-2-desktop is-uppercase">Réalisation technique</h2>
+                        <br>
+                        <p class="has-text-justified">
                           L'équipe s'est chargée du maquettage du site avec FIGMA et de son développement.
                           On s'est notamment inspiré de Netflix pour l'architecture du site.
                           Nous avons utilisé les technologies suivantes : <br> <br>
                             - HTML & CSS <br>
-                            - Intro et navbar en js <br>
+                            - Intro et navbar en JS <br>
                             - Framework CSS Bulma utilisé pour le SITE<br>
                             - SASS <br>
                             - Github <br>
@@ -229,10 +249,11 @@
         <div class="container is-flex pt-6">
             <div class="columns is-flex is-flex-wrap-wrap">
                 <!-- Left side -->
-                <div class="column is-flex is-flex-direction-column is-justify-content-center">
+                <div class="column is-flex is-flex-direction-column is-justify-content-flex-start">
                     <div class="is-flex is-flex-direction-column is-align-items-center">
-                        <h2 class="title is-2 ">L'équipe coordination</h2>
-                        <p>
+                        <h2 class="is-size-2-desktop is-uppercase">Production</h2>
+                        <br>
+                        <p class="has-text-justified">
                             L'équipe chargée de la gestion du projet a tout d’abord conduit l’émergence du projet, à travers différentes méthodes de brainstorming dans l’objectif de trouver un projet qui conviendrait à tout le monde.
                             L'équipe chargée de la gestion du projet a permis de renforcer la cohésion de groupe en répartissant l'ensemble du groupe en plusieurs équipes distinctes selon les compétences de chacun. 
                             Le suivi de l’avancement du projet à pu être possible grâce à un tableau TRELLO mis à la disposition de tous, permettant à chacune des équipes de connaître les différentes tâches leurs étant attribuées, ainsi que suivre l’avancée de chacun.
@@ -241,7 +262,7 @@
                     </div>
                 </div>
 
-                <div class="column is-flex is-flex-wrap-wrap">
+                <div class="column is-flex is-flex-wrap-wrap pb-6">
                     <div class="columns is-6">
                         <div class="column ">
                             <figure class="has-text-centered">

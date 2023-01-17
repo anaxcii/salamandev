@@ -41,6 +41,11 @@ p{
   font-size: 1.2em;
   color: $couleur_tertiaire;
 }
+div p{
+  font-family: $police_texte;
+  font-size: 1.5em;
+  color: $couleur_tertiaire;
+}
 h1,h2,h3 {
   font-family: $police_titre;
   font-size: 2em;
@@ -51,6 +56,17 @@ p+ul{
   font-family: $police_texte;
   list-style: inside;
   color: $couleur_tertiaire;
+}
+
+a{
+  color: $couleur_secondaire;
+}
+a:active{
+  color:$couleur_secondaire;
+}
+button:hover{
+  transform: scale(1.2);
+  transition: 0.4s;
 }
 
 
@@ -152,7 +168,7 @@ header{
 
 video {
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 
 // #texte_video{
@@ -174,7 +190,7 @@ video {
 // CARROUSEL
 
 #slider{
-  top: 70%;
+  top: 68%;
   position: relative;
   z-index: 3;
   background-color: hsl(0 100% 100% / 0);
@@ -286,4 +302,20 @@ footer{
   }
   
 
+}
+
+@media (min-height: 768px){
+  // $modal-content-width: 150px;
+  #section_video{
+    height: 50vh;
+  }
+
+  .hero-body{
+    padding-top: 150px;
+  }
+  // #section_banniere{
+  //   img{
+  //     padding-top: 150px;
+  //   }
+  // }
 }
