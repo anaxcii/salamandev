@@ -129,6 +129,9 @@ header{
   
   .sidenav a:hover {
     color: #ccdbde;
+    transform: scale(1.1);
+    transition: 0.4s;
+    text-decoration: underline;
   }
   
   /* Active class */
